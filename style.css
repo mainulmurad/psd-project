@@ -1,0 +1,298 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+/* common start*/
+
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+
+}
+
+/* common end*/
+
+
+/* header start*/
+header{
+	padding: 25px 0;
+	/*border: 1px solid black;*/
+}
+.wrapper{ 
+   width: 90%;
+   /*border: 1px solid black;*/
+    margin: 0 auto;
+   overflow: hidden;
+
+ }
+.logo{
+	margin-top: 10px;
+	float: left;
+	width: 13%;
+	/*border: 1px solid black;*/
+}
+.logo img{ 
+	width:100%;
+	  }
+.menu{
+	float: right;
+	width: 70%;
+	/*border: 1px solid black;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+   float: left;
+
+}
+.menu ul li a{
+    margin:  0 50px;
+    padding: 5px 3px;
+	font-size:16px;
+	color:#626262 ;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px  solid transparent;  
+	
+}
+.menu ul li:last-child a{
+	margin-right:  0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+	
+
+}
+/* header end */
+/*banner start */
+.banner{}
+ .banner img{
+ 	width: 100%;
+}
+
+/* banner end*/
+/*perfect start*/
+.perfect{ 
+padding: 70px 0;
+ }
+.wrapper1{
+margin: 0 auto; 
+width: 80%;
+/*border: 1px solid red;*/
+overflow: hidden;
+
+
+
+ }
+.p_content{}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:14px;
+	font-weight:300 ;
+	color:#b4ad9e ;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_p{
+	margin: 0;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 25px;
+
+
+}	
+.mt_35{
+	margin-top: 35px;
+}
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding-top: 10px;
+	padding-bottom: 70px ;
+	
+}
+/*single start*/
+.single{
+	margin-top: 60px ;
+	width: 47%;
+	float: left;
+
+
+
+}
+.single:nth-child(even){
+
+      margin-left: 6%;
+
+
+
+}
+.single img{
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*single end*/
+/* blog end*/
+/*news start*/
+.news{
+	padding: 70px 0;
+	background-color: #f0f0f0;
+}
+
+.signup{
+	text-align: center;
+}
+.s_h1{
+	margin-top: 0;
+	margin-bottom:70px  ; 
+	color: #333333;
+}
+.s_form{
+		position: relative;
+	margin: 0 auto;
+	width: 400px;
+	
+}
+.s_form input{
+	padding-left: 5px;
+	padding-right: 45px;
+	 font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #010101;
+    background-color: transparent;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	top: 15px;
+	right:0;
+     position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+
+
+
+
+/*news end*/
+/*load start*/
+.load{
+	padding: 70px 0;
+	text-align: center;
+}
+.load button{
+	width: 160px;
+	height: 50px;
+	 font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #626262;
+	background-color: #fff;
+	border: 1px solid black;
+	cursor: pointer;
+
+}
+.load button:hover{
+	color: white;
+	background-color: #626262;
+	transition: 0.4s;
+
+}
+.load button:focus{
+	outline: none;
+}
+/*footter start*/
+footer{
+	padding-top: 25px;
+	padding-bottom: 30px;
+	background-color: #f0f0f0;
+
+}
+.terms{
+	width: 24%;
+	/*border: 1px solid black;*/
+	
+	float: left;
+
+}
+.terms ul{
+	padding-left:0;
+ overflow: hidden;
+
+}
+.terms ul li{
+	float: left;
+	list-style: none;
+}
+.terms ul li a{
+	padding: 0 15px;
+	text-decoration: none;
+	display: inline-block;
+	color: #000000;
+
+}
+.terms ul li:first-child a{
+	padding-left: 0;
+}
+.social{
+	width: 30%;
+ 	/*border: 1px solid black;*/
+ 	
+	float: right;
+}
+.social ul{
+	float: right;
+
+}
+.social ul li{
+	float: left;
+	font-family: 'Playfair Display', serif;
+	 font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+	list-style: none;
+}
+.social ul li a{
+	padding: 0 15px;
+
+	text-decoration: none;
+	display: block;
+
+}
+.social ul li:last-child a{
+   padding-right: 0;
+}
